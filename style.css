@@ -1,10 +1,19 @@
 body{
     background: #d6cccc;
 }
+#banner{
+   
+    width: 100%;
+    border: 10px solid #ffffff;
+    margin: 10px;
+    
+}
+
 h1{
     text-align: center;
     background: #5f0202ba;
     color: #ffffff;
+    padding: 10px;
 
 }
 p{

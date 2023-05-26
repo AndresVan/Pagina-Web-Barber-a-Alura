@@ -1,0 +1,29 @@
+header{
+    background-color: #BBBBBB;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;  /* dejamos auto para que permanezca centrado independientemente del ancho de la pantalla*/
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 70px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /*La decoración que aparece como subrayar los links*/
+}

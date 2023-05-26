@@ -1,0 +1,18 @@
+body{
+    background: #d6cccc;
+}
+h1{
+    text-align: center;
+    background: #5f0202ba;
+    color: #ffffff;
+
+}
+p{
+    text-align: center;
+}
+#mision{
+    font-size: 20px;
+}
+b em{
+    color: rgb(130, 4, 4);
+}

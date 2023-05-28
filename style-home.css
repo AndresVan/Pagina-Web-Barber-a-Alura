@@ -1,0 +1,52 @@
+.titulo-principal{
+    padding-left: 20px;
+    background: #201c1cba;
+    color: #ffffff;
+}
+
+.principal{
+    background: #d6cccc;
+    padding: 20px;
+}
+
+#banner{
+    width: 100%;
+    border: 10px solid #201c1cba;
+}
+
+p{
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+b em{
+    color: rgb(76, 20, 20);
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block; /* Permite poner elementos al pie de la lista*/
+    vertical-align: top; /* Situa la alineación de la lista con la parte superior*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.diferenciales{
+    background: #ffffff;
+    padding: 30px;
+}
+
+.imgdiferencial{
+    width: 20%;
+    
+}

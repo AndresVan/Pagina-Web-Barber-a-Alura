@@ -35,6 +35,7 @@ header{
 
 .productos li p{
     text-align: center;
+    padding: 10px;
 }
 
 .precio{

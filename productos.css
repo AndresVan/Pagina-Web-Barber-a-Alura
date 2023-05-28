@@ -9,6 +9,40 @@ header{
     padding: 20px;
 }
 
+.productos{
+    width: 940px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.productos li h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.productos li p{
+    text-align: center;
+}
+
+.precio{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
 nav{
     position: absolute;
     top: 110px;
@@ -26,4 +60,19 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none; /*La decoración que aparece como subrayar los links*/
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+    font-size: 20px;
+}
+
+.productos li:active{
+    border-color: #140deb;
+
 }

@@ -175,6 +175,10 @@ td,th{
     margin: 0 0 1em;
 }
 
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -186,6 +190,12 @@ td,th{
 
 .principal em{
     font-style: italic;
+}
+
+.utencilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .mapa{
@@ -227,8 +237,18 @@ td,th{
     font-weight: bold;
 }
 
+.items:before{
+    content: "\272B";
+}
+
 .imgdiferencial{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imgdiferencial:hover{
+    opacity: 40%;
 }
 
 .video{
@@ -237,8 +257,20 @@ td,th{
     margin: 1em auto;
 }
 
-.utencilios{
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
+
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    };
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .mapa-contenido, .video{
+        width: auto;
+    }    
+
+    .lista-diferenciales, .imgdiferencial{
+        width: 100%;
+    }
 }

@@ -23,7 +23,48 @@
     </header>
 
     <main>
-        
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="micorreo@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxx xxxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+
+            <fieldset>
+
+                <legend>Cómo le gustaría que lo contactemos?</legend>
+                <label for="radio-email">
+                    <input type="radio" value="email" id="radio-email" name="contacto">
+                    Email</label>
+                
+                <label for="radio-telefono">
+                    <input type="radio" value="email" id="radio-telefono" name="contacto">
+                    Telefono</label>
+                            
+                <label for="radio-whatsapp">
+                    <input type="radio" value="email" id="radio-whatsapp"  checked name="contacto">
+                    Whatsapp</label>
+                        <fieldset>
+                            <legend>En cuál horario desea ser atendido?</legend>
+                            <select name="selector" id="selector">
+                                <option value="">Mañana</option>
+                                <option value="">Tarde</option>
+                                <option value="">Noche</option>
+                            </select>
+                        </fieldset>
+            </fieldset>            
+
+            <label class="checkbox">
+            <input type="checkbox" checked>Le gustaría recibir novedades de la Barbería por correo eletrónico?</p>
+            </label>
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
     </main>
 
     <footer>

@@ -94,12 +94,6 @@ footer{
     margin: 10px;
 }
 
-
-main{
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -153,8 +147,17 @@ td,th{
 
 /*Aquí inicia el CSS de la página Home*/
 
-.banner{
+#banner{
     width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.principal{
+    background: #fefefe;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .titulo-principal{
@@ -169,6 +172,7 @@ td,th{
 
 .principal strong{
     font-weight: bold;
+
 }
 
 .principal em{
@@ -177,11 +181,22 @@ td,th{
 
 .mapa{
     padding: 3em;
+    background: linear-gradient(#fefefe,#888888)
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p{
     text-align: center;
     margin: 20px;
+}
+
+.diferenciales{
+    background: #888888;
+    padding: 3em 0;
 }
 
 .contenido-diferenciales{

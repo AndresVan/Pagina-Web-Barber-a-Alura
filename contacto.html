@@ -16,40 +16,44 @@
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="productos.html"> Productos</a></li>
-                    <li><a href="contacto.html">Contactos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <form>
-            <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron" required>
+        <div class="contenido-contacto">
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
 
-            <label for="correoelectronico">Correo electrónico</label>
-            <input type="email" id="correoelectronico" class="input-padron" required placeholder="micorreo@dominio.com">
+                <label for="correoelectronico">Correo electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="micorreo@dominio.com">
 
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxx xxxx">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxx xxxx">
 
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
 
-            <fieldset>
+                <fieldset>
 
-                <legend>Cómo le gustaría que lo contactemos?</legend>
-                <label for="radio-email">
-                    <input type="radio" value="email" id="radio-email" name="contacto">
-                    Email</label>
+                    <legend>Cómo le gustaría que lo contactemos?</legend>
+                    <label for="radio-email">
+                        <input type="radio" value="email" id="radio-email" name="contacto">
+                    Email
+                    </label>
                 
-                <label for="radio-telefono">
+                    <label for="radio-telefono">
                     <input type="radio" value="email" id="radio-telefono" name="contacto">
-                    Telefono</label>
+                    Telefono
+                    </label>
                             
-                <label for="radio-whatsapp">
+                    <label for="radio-whatsapp">
                     <input type="radio" value="email" id="radio-whatsapp"  checked name="contacto">
-                    Whatsapp</label>
+                    Whatsapp
+                    </label>
                         <fieldset>
                             <legend>En cuál horario desea ser atendido?</legend>
                             <select name="selector" id="selector">
@@ -58,36 +62,37 @@
                                 <option value="">Noche</option>
                             </select>
                         </fieldset>
-            </fieldset>            
+                </fieldset>            
 
-            <label class="checkbox">
-            <input type="checkbox" checked>Le gustaría recibir novedades de la Barbería por correo eletrónico?</p>
-            </label>
-            <input type="submit" value="Enviar formulario" class="enviar">
-        </form>
+                <label class="checkbox">
+                <input type="checkbox" checked>Le gustaría recibir novedades de la Barbería por correo eletrónico?</p>
+                </label>
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Día</th>
-                    <th>Horario</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Lunes</td>
-                    <td>08h - 20h</td>
-                </tr>
-                <tr>
-                    <td>Miércoles</td>
-                    <td>08h - 20h</td>
-                </tr>
-                <tr>
-                    <td>Viernes</td>
-                    <td>08h - 20h</td>
-                </tr>
-            </tbody>
-        </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>
